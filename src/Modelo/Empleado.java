@@ -41,7 +41,7 @@ public class Empleado extends Persona {
         return "Empleado{" + "codigo=" + codigo + ", departamento=" + departamento + '}';
     }
     
-    public boolean CrearFile(LinkedList<Empleado>Lista)
+    public boolean crearFile(LinkedList<Empleado>Lista)
     {   
         try{
             Element company= new Element("company");
@@ -59,5 +59,6 @@ public class Empleado extends Persona {
         }
         return false;    
     }
-    
+
+        
 }

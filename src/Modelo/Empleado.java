@@ -5,18 +5,24 @@
  */
 package Modelo;
 
+import java.util.logging.Logger;
+
 /**
  *
  * @author santiago.arce
  */
-public class Empleado {
+public class Empleado extends Persona {
     String codigo;
     String departamento;
 
-    public Empleado(String codigo, String departamento) {
+    public Empleado(String codigo, String departamento, String nombre, int edad, String direccion) {
+        super(nombre, edad, direccion);
         this.codigo = codigo;
         this.departamento = departamento;
     }
+    
+
+   
 
     public String getCodigo() {
         return codigo;

@@ -1,18 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Modelo;
-
-/**
- *
- * @author santiago.arce
- */
+                  
 public class Persona {
     String nombre;
     int edad;
     String direccion;
+
+    public Persona() {
+    }
 
     public Persona(String nombre, int edad, String direccion) {
         this.nombre = nombre;
@@ -46,7 +40,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return  "nombre " + nombre + ", edad=" + edad + " direccion=" + direccion + '}';
+        return  " , " + nombre + " , " + edad + " , " + direccion ;
     }
          
     

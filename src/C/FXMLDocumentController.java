@@ -1,6 +1,7 @@
 package C;
 
 import Modelo.Empleado;
+import static com.sun.deploy.uitoolkit.ToolkitStore.dispose;
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.ResourceBundle;
@@ -40,6 +41,8 @@ public class FXMLDocumentController implements Initializable {
     LinkedList<Empleado>Lista;
 
       
+  
+    
     @FXML
     private void AgregarLista(ActionEvent event) {
       
